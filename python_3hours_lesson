@@ -1,0 +1,58 @@
+greet = "你好"
+greet_chinese = greet
+greet_english = "hello"
+greet = greet_english
+print(greet + " 哥哥")
+print(greet_chinese + " 哥哥")
+print()
+import math
+
+a = -1
+b = -2
+c = 3
+print((-b + math.sqrt(b**2 - 4*a*c)**(1/2)) / (2*a))
+print((-b - math.sqrt(b**2 - 4*a*c)**(1/2)) / (2*a))
+
+# 对字符串求长度
+s = "peisenxu"
+print(len(s))
+
+# 通过索引获取单个字符
+print(s[0])
+
+# 布尔类型
+b1 = True
+b2 = False
+
+# 空值类型
+n = None
+
+# type函数
+print(type(s))
+print(type(b1))
+print(type(n))
+print(type(1.5))
+print()
+
+# BMI = 体重/(身高**2）
+user_weight = float(input("请输入您的体重（单位：kg）："))
+user_height = float(input("请输入您的身高（单位：cm）："))
+user_BMI = user_weight/(user_height)**2
+print("您的BMI值为：" + str(user_BMI))
+if user_BMI < 18.5:
+    print("您属于偏瘦")
+elif 18.5 <= user_BMI < 25:
+    print("您属于正常")
+elif 25 <= user_BMI < 30:
+    print("您属于偏胖")
+else:
+    print("您属于肥胖")
+print()
+
+temperature = float(input("现在的室温："))
+if temperature < 18:
+    print("应该穿长袖")
+else:
+    print("穿什么都可以")
+print()
+
