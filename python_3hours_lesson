@@ -1,5 +1,3 @@
-from tkinter.font import names
-
 greet = "你好"
 greet_chinese = greet
 greet_english = "hello"
